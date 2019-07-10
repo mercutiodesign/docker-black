@@ -8,6 +8,6 @@ Install
 
 Add this function to your .bashrc/.zshrc:
 
-    black() { docker run -v $(pwd):/code mercutiodesign/black $*; }
+    black() { docker run -v $(pwd):/code mercutiodesign/docker-black black $*; }
 
 Reload your shell (source or exit/reopen) and you're good to go!

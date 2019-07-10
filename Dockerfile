@@ -4,5 +4,3 @@ RUN mkdir /code
 WORKDIR /code
 
 RUN pip install --no-cache-dir black
-
-ENTRYPOINT ["black"]

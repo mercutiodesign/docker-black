@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t jbbarth/black .
+docker build --pull -t mercutiodesign/black .

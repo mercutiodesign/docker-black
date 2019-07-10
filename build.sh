@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build --pull -t mercutiodesign/black .
+docker build --pull -t mercutiodesign/docker-black .
